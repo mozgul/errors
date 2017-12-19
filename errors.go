@@ -100,7 +100,7 @@ import (
 // New also records the stack trace at the point it was called.
 func New(message string) error {
 	return &fundamental{
-		msg:   message,
+		msg:   message + ":from_forked:",
 		stack: callers(),
 	}
 }
