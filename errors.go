@@ -1,5 +1,7 @@
 // Package errors provides simple error handling primitives.
 //
+// This is from the fork, v2
+//
 // The traditional error handling idiom in Go is roughly akin to
 //
 //     if err != nil {
